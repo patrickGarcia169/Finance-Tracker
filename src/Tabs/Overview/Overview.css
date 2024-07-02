@@ -1,0 +1,29 @@
+#overview-main{
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#overview-main #graphs{
+    background-color: lightblue;
+    width: 50%;
+}
+
+/*Nested Flex Box*/
+#overview-main #flex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#overview-main #piechart, #summary{
+    width: 100%;
+    height: 50%;
+}
+#overview-main #piechart{
+    background-color: lightgreen;
+}
+#overview-main #summary{
+    background-color: lightcoral;
+}
+
