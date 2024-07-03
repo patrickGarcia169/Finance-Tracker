@@ -1,7 +1,7 @@
 import './IEGraph.css';
 import { Chart } from "react-chartjs-2";
 import 'chart.js/auto';
-import {incomes, expenses} from "./data.js"
+import {incomes, expenses, axisVal} from "./data.js"
 
 function IEGraph(){
 
@@ -27,12 +27,21 @@ function IEGraph(){
         ],
     }
 
+    const options = {
+        scales:{
+            y:{
+                max: axisVal,
+            }
+        }
+    }
+
     return(
         <>
             <div id="iegraph-main">
                 <Chart
                     type='bar'
                     data={data}
+                    options={options}
                 />
             </div>
         </>

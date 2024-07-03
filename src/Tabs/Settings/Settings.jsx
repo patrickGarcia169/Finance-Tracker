@@ -6,7 +6,7 @@ function Settings(){
         <>
             <Header/>
             <div id="settings-main">
-                <p>Oh asdfasdf Herro world</p>
+                <p>Settings</p>
             </div>
         </>
     )

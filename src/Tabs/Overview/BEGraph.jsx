@@ -1,7 +1,7 @@
 import './BEGraph.css';
 import { Chart } from "react-chartjs-2";
 import 'chart.js/auto';
-import {budgets, expenses} from "./data.js"
+import {budgets, expenses, axisVal} from "./data.js"
 
 function BEGraph(){
 
@@ -27,12 +27,21 @@ function BEGraph(){
         ],
     }
 
+    const options = {
+        scales:{
+            y:{
+                max: axisVal,
+            }
+        }
+    }
+
     return(
         <>
             <div id="begraph-main">
                 <Chart
                     type='bar'
                     data={data}
+                    options={options} 
                 />
             </div>
         </>

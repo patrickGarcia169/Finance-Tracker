@@ -6,7 +6,7 @@ function Transactions(){
         <>
             <Header/>
             <div id="transactions-main">
-                <p>Herro world</p>
+                <p>Transactions</p>
             </div>
         </>
     )

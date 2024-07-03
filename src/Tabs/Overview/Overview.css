@@ -6,7 +6,6 @@
     flex-wrap: wrap;
 }
 #overview-main #graphs{
-    background-color: lightblue;
     width: 50%;
 }
 
@@ -20,10 +19,18 @@
     width: 100%;
     height: 50%;
 }
-#overview-main #piechart{
-    background-color: lightgreen;
-}
-#overview-main #summary{
-    background-color: lightcoral;
-}
 
+#overview-main #summary{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#overview-main #summary .text-inactive{
+    display: none;
+}
+#overview-main #summary .text-active{
+    margin: auto;
+}
