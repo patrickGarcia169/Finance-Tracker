@@ -1,0 +1,36 @@
+#settings-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#settings-main #settings-box{
+    list-style-type: none;
+    height: 50%;
+    width: 300px;
+    padding: 0;
+}
+
+#settings-main .setting{
+    border: 1px solid black;
+    width: 100%;
+    
+    height: 100px;
+    background-color: rgb(168, 233, 168);
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    text-decoration: none;
+    color: black;
+}
+#settings-main .setting:hover{
+    background-color: rgb(83, 172, 83);
+}
+#settings-main #out:hover{
+    background-color: rgb(58, 122, 58);
+}

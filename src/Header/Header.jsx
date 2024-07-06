@@ -7,9 +7,9 @@ function Header(){
         <>
             <div id='header-main'>
                 <div>
-                    <Link to="/home">
-                        <img src="./src/assets/ServerPic.jpg" alt="Profile Picture"/>
-                    </Link>
+                    
+                    <img src="/assets/ServerPic.jpg" alt="Profile Picture"/>
+                    
                     <p>Welcome, User!</p>
                 </div>
                 <ul>
